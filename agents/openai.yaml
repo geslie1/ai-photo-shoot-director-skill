@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI 写真摄影导演"
+  short_description: "把写真想法整理成摄影现场式生图提示词"
+  default_prompt: "Use $ai-photo-shoot-director to turn this portrait idea into a stable photography-directed prompt."
+
+policy:
+  allow_implicit_invocation: true
