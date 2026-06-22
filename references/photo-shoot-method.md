@@ -97,6 +97,142 @@ For the close peach snapshot look, prefer:
 
 Always specify where the light comes from, where it lands, and what it causes: soft bloom, hard shadow, dappled light, rim light, flare, grain, or edge blur.
 
+## Gufeng Portrait Decisions
+
+When handling gufeng, hanfu, Chinese period-style portraits, or old-room ancient-style photo prompts, first decide the route. Do not mix all routes in one prompt.
+
+### Route 1: Modern Gufeng Photography
+
+Use this when the user wants beauty, shareability, stable faces, and sample-like portrait appeal.
+
+- Face can be more camera-friendly and polished.
+- Clothing can be improved hanfu or styled period-inspired wardrobe.
+- Makeup can be refined but restrained.
+- Light can be photographic: window backlight, Pro-Mist-like bloom, diffusion, film grain.
+- Best for commercial/social article images.
+
+Prompt route phrase:
+
+```text
+真实摄影，现代古风写真，改良汉服，胶片质感，镜头穿过纱帘和桌案前景拍摄，人物妆容精致但克制。
+```
+
+### Route 2: Ancient-Life Snapshot
+
+Use this when the user asks for "really ancient", documentary, living-history, non-studio, or candid period life.
+
+- Face should be less modern-beauty optimized.
+- Makeup should be very light or nearly invisible.
+- Wardrobe should be simpler and less glossy.
+- Action should come from daily life: writing, grinding ink, sorting herbs, making tea, opening a curtain, carrying books.
+- Avoid obvious modern studio lighting, idol makeup, and influencer face.
+
+Prompt route phrase:
+
+```text
+古代生活场景的电影化纪实画面，服饰朴素，妆容极淡，人物像在真实生活中整理纸页或煮茶，不看镜头，没有现代影楼摆拍感。
+```
+
+### Writing Gufeng Faces
+
+Do not write only "classical beauty" or "beautiful hanfu girl". Lock face temperament, geometry, hair, and makeup anchor.
+
+Modern gufeng face:
+
+```text
+一位明确成年的虚构东亚女性，清冷小鹅蛋脸，眉眼细长但柔和，鼻梁自然，唇形小而清晰，黑发低挽，几缕碎发贴在脸侧。淡雅古典妆，柔雾底妆，低饱和豆沙唇，眉眼干净，保留真实皮肤纹理。
+```
+
+More shareable Chinese social-media beauty version:
+
+```text
+一位明确成年的虚构中国女性，精致但不夸张的小鹅蛋脸，清透杏眼，柔和鼻梁，干净下颌线，黑发低挽并有自然碎发。清透古风妆，轻薄底妆，淡粉眼下腮红，自然卧蚕，低饱和玫瑰豆沙唇，皮肤真实但上镜。
+```
+
+Ancient-life face:
+
+```text
+一位明确成年的虚构东亚女性，脸型柔和朴素，眉眼安静，不是现代网红妆容，黑发简单束起，妆感极淡，皮肤保留真实纹理、细小毛孔和生活感。
+```
+
+Use reference images only when face consistency matters. If the user only wants gufeng atmosphere, text is usually enough. If using face references, do not imitate a real celebrity, influencer, or private person identity; describe a fictional face direction instead.
+
+### Writing Gufeng Light
+
+Write light directly in the prompt. Do not rely on post-processing to rescue flat lighting. Use source + modifier + landing area + result.
+
+Old-room window light:
+
+```text
+窗外白雾逆光从侧后方透过竹帘和窗棂进入房间，落在纱帘、纸张边缘、发丝和木案上，形成柔和光束、轻微灰尘颗粒、暗部抬起和旧木头潮气感。
+```
+
+Garden or orchard light:
+
+```text
+强自然光穿过树叶形成筛孔光斑，落在脸颊、发丝、衣料和手背上，高光轻微溢出但不死白，皮肤保留细小颗粒。
+```
+
+Indoor candle or lantern light:
+
+```text
+低位暖色烛光从桌面侧前方照来，落在手指、下颌、纸页和杯沿上，背景保持青灰暗部，形成暖冷对比、局部柔焦和轻微烟气。
+```
+
+### Avoiding AI Skin in Gufeng
+
+Use anti-cleanup texture controls. Avoid "8K", "perfect skin", "ultra sharp", "flawless", "commercial retouch", and "HDR".
+
+Good texture lock:
+
+```text
+真实摄影的不完美质感：轻微胶片颗粒、低对比、暗部抬起、局部柔焦、逆光边缘晕开，皮肤保留真实纹理、细小毛孔和轻微瑕疵，不要过度磨皮，不要塑料皮肤，不要HDR，不要商业棚拍锐化。
+```
+
+Depth and cleanup blocker:
+
+```text
+主体清晰但不过度锐化，背景和道具允许被浅景深、雾气和眩光吞掉，不要所有道具都同样清晰。
+```
+
+### Gufeng Expressions
+
+Write micro-expression and gaze relationship instead of broad emotion words.
+
+Quiet and cold:
+
+```text
+低头垂眼，嘴唇自然放松，神情安静疏离，像正在想事情，不强求看镜头。
+```
+
+Soft:
+
+```text
+眼神落在手中的纸页或花枝上，唇角极轻微放松，表情温和但不过度甜美。
+```
+
+Story-like pause:
+
+```text
+视线越过窗外光线，脸上有轻微停顿感，像刚从动作中安静下来。
+```
+
+Avoid high-risk expression/action bundles such as seductive over-the-shoulder gaze, large head turn, exaggerated wink, twisted torso, or looking back while walking away unless the user explicitly asks and accepts anatomy risk.
+
+### Gufeng Quick Template
+
+```text
+3:4 竖图，真实摄影，现代古风旧阁书案写真，低对比青灰雾化胶片质感，暗部抬起，柔焦，轻微颗粒。
+
+一位明确成年的虚构东亚女性，清冷小鹅蛋脸，眉眼细长柔和，黑发低挽，几缕碎发贴在脸侧。淡雅古典妆，柔雾底妆，低饱和豆沙唇，眉眼干净，保留真实皮肤纹理。
+
+浅青灰色改良汉服搭配米白长裙，衣料有细密织纹和轻微旧感，玉色发簪和简洁耳坠，避免影楼感和过度华丽。
+
+前景是贴近镜头的旧木案边缘、手抄纸、半卷卷轴和白色纱帘虚影；人物坐在书案旁，手指轻触纸页，低头垂眼，嘴唇自然放松，不强求看镜头。背景有竹帘、窗棂、古书、砚台、旧瓷果盘，道具不需要全部出现，只根据构图需求选取。
+
+窗外白雾逆光从侧后方透过竹帘和窗棂进入房间，落在纱帘、纸张边缘、发丝和木案上，形成柔和光束、轻微灰尘颗粒和旧木头潮气感。
+```
+
 ## Makeup Anchors
 
 Use the smallest recognizable makeup identity. If one sentence cannot describe the makeup, simplify it.

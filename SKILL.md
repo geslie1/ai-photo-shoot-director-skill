@@ -1,6 +1,6 @@
 ---
 name: ai-photo-shoot-director
-description: Turn AI portrait, photo-shoot, realistic photography, ChatGPT image-2, gpt-image-2, studio, CCD, film, phone snapshot, and image prompt requests into stable photography-directed prompts. Use when drafting, optimizing, diagnosing, or generating AI portrait prompts that need concrete scene layers, imaging method, makeup anchors, pose skeletons, lighting logic, and negative constraints instead of vague beauty words.
+description: Turn AI portrait, photo-shoot, realistic photography, ChatGPT image-2, gpt-image-2, studio, CCD, film, phone snapshot, gufeng, hanfu, Chinese period-style portrait, modern gufeng photography, ancient-life snapshot, and image prompt requests into stable photography-directed prompts. Use when drafting, optimizing, diagnosing, or generating AI portrait prompts that need concrete scene layers, imaging method, makeup anchors, pose skeletons, lighting logic, skin texture controls, route decisions, and negative constraints instead of vague beauty words.
 ---
 
 # AI Photo Shoot Director
@@ -19,6 +19,7 @@ Use this fixed workflow:
    - specific imaging method, such as film, Fuji-style outdoor color, Nikon realism, phone snapshot, direct-flash CCD, or high-key soft-mist studio
    - texture lock: lens flaws, foreground pressure, exposure behavior, color grade, grain, haze, bloom, and anti-AI-polish constraints
    - clearly adult fictional subject, face temperament, hairstyle, and one makeup anchor
+   - route decision when relevant: modern styled shoot, period-life snapshot, studio portrait, or editorial reconstruction
    - clothing, colors, materials, and wearable realism
    - foreground, subject plane, background, and optional props
    - camera distance, lens feeling, angle, crop, and depth of field
@@ -43,6 +44,7 @@ Use this fixed workflow:
 - Add a **质感锁 / texture lock** when the user wants sample-like texture. Name what makes the photo imperfect: near foreground occupying 20-40% of the frame, optical blur, flare, blooming highlights, visible dust or mist, film grain, halation, lifted blacks, or mild motion softness.
 - Avoid over-cleaning. Do not stack "8K", "ultra sharp", "perfect skin", "commercial retouch", "HDR", or "crystal clear" when the desired look is film-like, nostalgic, misty, or candid.
 - Use makeup as a minimal recognizable anchor, not a full makeup tutorial.
+- For gufeng or hanfu portraits, decide whether the target is modern gufeng photography or ancient-life snapshot before writing face, light, makeup, clothing, and expression details.
 - Use a pose skeleton, not a high-risk body puzzle. Avoid large twisted necks, back-facing bodies with full head turns, and overly complex limbs unless explicitly required.
 - Treat props as an atmosphere library. Use phrases like "not all props need to appear; select according to composition" when the prompt contains many props.
 - Keep subjects fictional and clearly adult by default. Avoid minor-coded framing, exposed genitals, exposed nipples, explicit sexual acts, or identity imitation without authorization.
