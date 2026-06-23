@@ -1,5 +1,7 @@
 # AI Photo Shoot Director Skill
 
+![AI 摄影导演 Skill 封面](assets/readme/ai-photo-shoot-director-hero.png)
+
 把 AI 写真、真实摄影、ChatGPT image-2 / gpt-image-2 生图需求，整理成更像摄影现场导演稿的 Codex skill。
 
 它的目标不是堆叠“好看、氛围感、高级感”，而是把一张图拆成可执行的摄影要素：主题、成像方式、人物妆造、前景/人物/背景三层空间、镜头构图、动作骨架、光线质感和负面护栏。
@@ -117,7 +119,8 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
         ├── fresh-breakfast-window.png
         ├── fresh-greenhouse.png
         ├── fresh-seaside-laundry.png
-        └── fresh-bicycle-street.png
+        ├── fresh-bicycle-street.png
+        └── ai-photo-shoot-director-hero.png
 ```
 
 ## 安全边界
@@ -125,3 +128,7 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 - 默认面向明确成年、虚构人物写真。
 - 避免未成年人、年龄模糊、露骨色情、身份伪造和真实品牌误用。
 - 不把“完美皮肤、8K、超清、商业精修”作为默认目标；如果追求真实摄影感，会优先保留光学瑕疵和现场感。
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
